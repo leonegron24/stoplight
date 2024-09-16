@@ -1,0 +1,53 @@
+body{
+    display: flex;
+}
+
+section{
+    margin: 0 auto;
+    height: 800px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 171, 171);
+}
+.container{
+    height: 300px;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.light{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.red-light{
+    background-color: red;
+}
+.green-light{
+    background-color: green;
+}
+.yellow-light{
+    background-color: yellow;
+}
+.pole{
+    height: 50px;
+    width: 45px;
+    background-color: black;
+}
+button{
+    cursor: pointer;
+    transition: background-color 0.3s ease; box-shadow 0.3s ease;
+}
+button:hover{
+    box-shadow: 0 0 15px rgba(255,255,255, 0.6);
+}
+.glow{
+    box-shadow: 0 0 15px rgba(255,255,255, 1);
+    filter: brightness(2);
+}
